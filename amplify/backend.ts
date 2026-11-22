@@ -80,7 +80,10 @@ const restApi = new RestApi(apiStack, 'CloudSnapRestApi', {
     stageName: 'dev',
   },
   defaultCorsPreflightOptions: {
-    allowOrigins: ['http://localhost:5173'],
+   allowOrigins: [
+  'http://localhost:5173',
+  'https://main.d170st01q5amg2.amplifyapp.com',
+],
     allowMethods: Cors.ALL_METHODS,
     allowHeaders: ['Authorization', 'Content-Type'],
   },

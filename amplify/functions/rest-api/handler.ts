@@ -14,7 +14,7 @@ const dynamodb = new DynamoDBClient({});
 
 const corsHeaders = {
   "Content-Type": "application/json",
-  "Access-Control-Allow-Origin": "http://localhost:5173",
+  "Access-Control-Allow-Origin": "https://main.d170st01q5amg2.amplifyapp.com",
 };
 
 function response(statusCode: number, body: unknown) {
