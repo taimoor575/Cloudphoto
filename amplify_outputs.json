@@ -39,10 +39,12 @@
         "GOOGLE"
       ],
       "redirect_sign_in_uri": [
-        "http://localhost:5173/"
+        "http://localhost:5173/",
+        "https://main.d170st01q5amg2.amplifyapp.com/"
       ],
       "redirect_sign_out_uri": [
-        "http://localhost:5173/"
+        "http://localhost:5173/",
+        "https://main.d170st01q5amg2.amplifyapp.com/"
       ],
       "response_type": "code",
       "scopes": [
